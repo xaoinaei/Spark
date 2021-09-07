@@ -393,7 +393,7 @@ div#preloader {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #fff;
+  color: #fff !important;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -436,7 +436,7 @@ div#preloader {
   bottom: 15px;
   left: 15px;
   padding: 10px 0;
-  background-color: #fff;
+  background-color: rgba(1, 2, 2, 0.9) !important;
   overflow-y: auto;
   transition: 0.3s;
 }
