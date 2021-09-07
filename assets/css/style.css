@@ -301,12 +301,12 @@ div#preloader {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 0 10px 30px;
   font-size: 15px;
   font-weight: 500;
-  color: #fff;
+  color: #fff !important;
   white-space: nowrap;
   transition: 0.3s;
+  font-weight: 600;
 }
 
 .navbar a i,
@@ -317,10 +317,12 @@ div#preloader {
 }
 
 .navbar a:hover,
-.navbar .active,
-.navbar .active:focus,
+.navbar a .active,
+.navbar a .active:focus,
 .navbar li:hover > a {
-  color: #ff4500;
+  /* color: #ff4500; */
+  border-bottom: 2px solid #ff4500;
+  border-radius: 15px;
 }
 
 .navbar .dropdown ul {
@@ -683,6 +685,7 @@ div#preloader {
 .single-services > p {
   color: #333;
   font-size: 14px;
+  text-align: justify;
 }
 
 /*--------------------------------------------------------------
@@ -1245,7 +1248,7 @@ div#preloader {
 }
 
 .footer-contacts p span {
-  color: #ff8c00;
+  color: #444;
   font-weight: 700;
 }
 
@@ -1548,16 +1551,6 @@ div#preloader {
     height: 40px;
     line-height: 37px;
     width: 40px;
-  }
-  .blog-post-dlc ul li {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-  .awesome-portfolio-content .portfolio-2 {
-    width: 50%;
-  }
-  .gallary-details .single-awesome-portfolio {
-    width: 50%;
   }
   .tab-menu ul.nav li a {
     padding: 8px 20px;
