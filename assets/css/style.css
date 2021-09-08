@@ -1181,6 +1181,8 @@ div#preloader {
 .footer-area {
   padding: 40px 0;
   background: #ff8c00;
+  display: flex;
+  justify-content: space-between;
 }
 
 .footer-head p {
